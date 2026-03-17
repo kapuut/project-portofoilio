@@ -14,6 +14,21 @@ const projects = [
     desc: "Aplikasi manajemen tugas dengan filter status dan local storage.",
     stack: "React, CSS",
   },
+  {
+    title: "Weather Dashboard",
+    desc: "Aplikasi cuaca real-time dengan fitur pencarian kota dan prakiraan singkat.",
+    stack: "JavaScript, OpenWeather API",
+  },
+  {
+    title: "Online Store UI",
+    desc: "Antarmuka e-commerce sederhana dengan katalog produk dan keranjang belanja.",
+    stack: "Next.js, Bootstrap",
+  },
+  {
+    title: "Notes App",
+    desc: "Aplikasi catatan ringan dengan fitur tambah, edit, hapus, dan penyimpanan lokal.",
+    stack: "React, Local Storage",
+  },
 ];
 
 export default function ProjectsGrid() {
